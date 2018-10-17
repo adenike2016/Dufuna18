@@ -1,20 +1,5 @@
 <html>
 <head>
-style>
-    body{text-align: center;
-    body{text-align: center,justify;
-    background-color: antiquewhite;
-    border-bottom: 40px;
-    background-size: 75%
-    }
-    .full card {
-        width: 245px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        margin: 10px 5px;
-        padding: 4px;
-    }
-    </style>
 <meta charset="utf-8">
    <meta name="view AnB website" content="width=device-width, initial-scale=1">
    <title>My First Website</title>
