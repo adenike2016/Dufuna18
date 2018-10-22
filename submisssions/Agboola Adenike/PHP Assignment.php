@@ -114,9 +114,9 @@ for each ($name as $x =$x_value){
 function calMath($num1, $num2) {
     $sum = $num1 + $num2;
     $product=$num1*$num2;
-    echo "The sum of $num1 and $num2 is : $sum<br>";
+    echo "The sum of $num1 and $num2 is : $sum <br>";
     echo "The  product of $num1 and $num2 is : $product";
 }
 ?>
-calMath(3,8);   
+calMath(3,20);   
 ?>
