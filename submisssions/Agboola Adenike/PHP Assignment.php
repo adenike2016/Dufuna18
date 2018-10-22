@@ -60,52 +60,30 @@ else{
 }
 ?>
 
-//Quiz 4
-<?php
-while($x>100 && $x<150){
-	echo "The numbers are: $x <br>";
-	$x++;
+//Quiz 4(a)
 
-?>
-.........................
 <?php
 for ($x=101; $x < 150;$x++){
 	echo "The numbers are: .$x. <br>";
 }
 ?>
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
+//Quiz 4(b)
 <?php
-while ($i=1;$i<=50)
-	echo "The numbers are : .$i. <br>";
+$i= 1
+while ($i < 50){
+	echo "The numbers are : $i. <br>";
 	i++;
-?>
-........................................
-<?php
-for ($i=1;$i<=50; i++;){
-	echo "The numbers are : $i <br>";
 }
 ?>
+
 //Quiz 5
-<?php
-$name = array("Wole","Laide","Dayo");
-$hobbies = array("Napping","Reading","Coding");
-$arrlength1 = count($name);
-$arrlength2 = count($hobbies);
-
-for($x= 0; $x < $arrlength1; $x++)
-	($x= 0; $x < $arrlength2; $x++){
-	echo "My name is " .$name[$x]. ", I love  " .$hobbies[$x]. }};
-	echo "<br>";
-}
-?>
-...................................
 
 <?php
-$name = array("Wole"=>"Napping","Laide"=>"Reading","Dayo"=>"Coding");
-for each ($name as $x =$x_value){
+$name = array("Wole" => "Napping","Laide" => "Reading","Dayo" => "Coding");
+for each ($name as $x => $x_value){
 	echo "My Name is ".$x. ", I love" .$x_value.
 	echo "<br>";
+}
 
 ?>
 
@@ -118,5 +96,5 @@ function calMath($num1, $num2) {
     echo "The  product of $num1 and $num2 is : $product";
 }
 ?>
-calMath(3,20);   
+calMath(5,20);   
 ?>
