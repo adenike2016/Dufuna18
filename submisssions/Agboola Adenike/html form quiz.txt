@@ -1,0 +1,11 @@
+//Quiz 1
+<input type="color"> : This is used for input fields that contains color
+<input type="date">:This is is used for input fields that should contain a date
+<input type="datetime-local">: This denotes date and time input field with no time zone 
+<input type="email">:This is used for input fields that should contain email address
+<input type="month">: This allows user to select moth and year
+<input type="number">:This allows user to input numeric field
+<input type="search">:This is used for search field
+<input type="url">:This is used for input fields that should contain a URL address
+<input type="week">:This allows user to select a week and year
+<input type="tel">:This is used for input fields that contains telephone number
