@@ -11,7 +11,6 @@
 <input type="tel">:This is used for input fields that contains telephone number
 
 //Quiz 1b
-//Quiz 1b
 'GET ' means that form data is to be encoded by a browser into a URL 
 'POST' means that form data is to appear within a message body.
 "GET" method should be used when the form processing is "idempotent", and in those cases only. As a simplification, 
