@@ -1,4 +1,4 @@
-//Quiz 1
+//Quiz 1a
 <input type="color"> : This is used for input fields that contains color
 <input type="date">:This is is used for input fields that should contain a date
 <input type="datetime-local">: This denotes date and time input field with no time zone 
@@ -9,3 +9,11 @@
 <input type="url">:This is used for input fields that should contain a URL address
 <input type="week">:This allows user to select a week and year
 <input type="tel">:This is used for input fields that contains telephone number
+
+//Quiz 1b
+//Quiz 1b
+'GET ' means that form data is to be encoded by a browser into a URL 
+'POST' means that form data is to appear within a message body.
+"GET" method should be used when the form processing is "idempotent", and in those cases only. As a simplification, 
+we might say that "GET" is basically for just getting (retrieving) data on the other hand  "POST" may involve anything, 
+like storing or updating data, or ordering a product, or sending E-mail.
