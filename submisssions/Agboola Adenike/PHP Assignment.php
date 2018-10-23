@@ -41,25 +41,6 @@ switch($temp)
 }
 
 ?>
-
-
-**************************************
-<?php
-$temp=34;
-if($temp<=20){
-    echo "It is really cold today<br>";
-}
-elseif($temp>20 && $temp<30){
-    echo "The weather is just perfect.<br>";
-}
-elseif($temp>30 && $temp<40){
-    echo "It’s so hot today<Br>";
-}
-else{
-    echo "Am I in the Sahara Desert?!<br>";
-}
-?>
-
 //Quiz 4(a)
 
 <?php
@@ -71,21 +52,25 @@ for ($x=101; $x < 150;$x++){
 <?php
 $i= 1
 while ($i < 50){
-	echo "The numbers are : $i. <br>";
-	i++;
-}
+	if($i%2==0)
+        echo  "The numbers are : $i. <br>";
+    $i++;
+}	
 ?>
 
 //Quiz 5
 
 <?php
-$name = array("Wole" => "Napping","Laide" => "Reading","Dayo" => "Coding");
-for each ($name as $x => $x_value){
-	echo "My Name is ".$x. ", I love" .$x_value.
+$name = Array("Wole ","Laide ","Dayo ");
+$hobby= array("Napping","Reading","Coding");
+$arraylength = count($name);
+for ($x=0; $x < $arraylength; $x++){
+    echo "My name is ".$name[$x]." ,I love  ".$hobby[$x].;
 	echo "<br>";
 }
 
 ?>
+
 
 //Quiz 6
 <?php
