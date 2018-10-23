@@ -11,8 +11,13 @@
 <input type="tel">:This is used for input fields that contains telephone number
 
 //Quiz 1b
-'GET ' means that form data is to be encoded by a browser into a URL 
-'POST' means that form data is to appear within a message body.
-"GET" method should be used when the form processing is "idempotent", and in those cases only. As a simplification, 
-we might say that "GET" is basically for just getting (retrieving) data on the other hand  "POST" may involve anything, 
+'POST ' means that form data is to be encoded by a browser into a URL 
+'GET' means that form data is to appear within a message body.
+ "GET" is basically for just getting (retrieving) data on the other hand  "POST" may involve anything, 
 like storing or updating data, or ordering a product, or sending E-mail.
+In other words, POST hides data,for example when a password is appended to a URL, POST hides the password from a user so it is advisable to use POST when dealing with sensitive data
+POST is more secured compared to GET
+POST Forms are not cached by browser while GET forms are cached by browser and remains in the browser history as cookies
+Data is passed internally through a server in POST while Data is passed through Url in GET
+Data length is unlimited in POST while data length is limited in GET
+Data is invisible in POST while data is visible in GET
