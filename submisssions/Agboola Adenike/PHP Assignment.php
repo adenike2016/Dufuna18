@@ -65,7 +65,7 @@ $name = Array("Wole ","Laide ","Dayo ");
 $hobby= array("Napping","Reading","Coding");
 $arraylength = count($name);
 for ($x=0; $x < $arraylength; $x++){
-    echo "My name is ".$name[$x]." ,I love  ".$hobby[$x].;
+    echo "My name is ".$name[$x]." ,I love  ".$hobby[$x];
 	echo "<br>";
 }
 
@@ -77,8 +77,8 @@ for ($x=0; $x < $arraylength; $x++){
 function calMath($num1, $num2) {
     $sum = $num1 + $num2;
     $product=$num1*$num2;
-    echo "The sum of $num1 and $num2 is : $sum <br>";
-    echo "The  product of $num1 and $num2 is : $product";
+    echo "The sum of num1 and num2 is : $sum <br>";
+    echo "The  product of num1 and num2 is : $product";
 }
 ?>
 calMath(5,20);   
