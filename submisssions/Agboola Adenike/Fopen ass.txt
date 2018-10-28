@@ -1,0 +1,11 @@
+﻿//QUIZ 2
+
+fopen() modes in php
+"r":(read only): It Starts at the beginning of the file)
+"r+" (read/Write):It Starts at the beginning of the file)
+"w" (write only):It opens and clears the contents of file; or creates a new file if it doesn't exist
+"w+" (Read/Write) It opens and clears the contents of file or creates a new file if it doesn't exist)
+"a" (write only): It opens and writes to the end of the file or creates a new file if it doesn't exist)
+"a+" (read/Write): It preserves file content by writing to the end of the file)
+"x" (write only):It creates a new file.It returns FALSE and an error if file already exists)
+"x+" (read/write): Creates a new file.It returns FALSE and an error if file already exists)
