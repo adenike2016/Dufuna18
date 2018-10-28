@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<style>
+body {font-family: calibri, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+/* Full-width input fields */
+input[type=text],input[type=password],input[type=email],input[type=phonenumber]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+label{ font-weight: 800; font-size: 1.2rem; color: #218ed6;}
+form{ padding: 5px;  width: 80%; }
+
+
+input[type=submit]{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    opacity: 0.9;
+}
+
+</style>
+<body>
+<form action="process.php" method="POST" enctype="multipart/form-data">
+<fieldset>
+<legend><h1>Sign up form</h1></legend>
+
+<label for="firstname"><b>Firstname:</b></label>
+<input type="text" name="firstname" id="firstname"> 
+<br>
+<label for="lastname"><b>Lastname:</b></label>
+<input type="text" name="lastname" id="lastname"> 
+<br>
+<label for="email"><b>Email:</b></label>
+<input type="email"  name="email" id="email"> 
+<br>
+<label for="password"><b>Password:</b></label>
+<input type="password" name="password" id="password"> 
+<br>
+<label for="confirmpassword"><b>Confirm Password:</label>
+<input type="password" name="confirmpassword" id="confirmpassword"> 
+<br>
+<label for="phonenumber"> Phone number:</label>
+<input type="phonenumber" name="phonenumber" id="phonenumber"> 
+<br>
+<label><b>Gender:</b></label> <label for="female">female</label><input type="radio" name="gender" id="female" value="female"> 
+			<label for="male">male</label><input type="radio" name="gender" id="male" value="male"> 
+<br>
+<br>
+<div class="input"> <label for="country"><b>Country:</b></label>
+<select name="country" id="country">
+	<option value="nigeria">Nigeria</option>
+	<option value="senegal">Senegal</option>
+	<option value="drc">DRC</option>
+</select></div>
+<input type="submit" name="submit" value="Sign Up">
+</fieldset>
+</form
+</body>
+</html>
+
+
